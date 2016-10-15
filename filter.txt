@@ -1,0 +1,56 @@
+! I Consent To Cookies, a filter to block "cookie consent" dialogs
+! Title: I Consent To Cookies
+! Expires: 30 days
+! Version: 1.0
+! Homepage: https://github.com/CrazyPython/I-Consent-to-Cookies
+
+! Both cosmetic and network filters are present, as not all
+! sites will use the CDN. The cosmetic filter is used as fallback.
+! Network filters will increase performance, unlike cosmetic filters.
+
+! If you are a web developer and need to add a cookie consent
+! to your site, remember to disable this filter.
+
+! A note on Silktide:
+! Silktide Cookie Consent goes by many different names.
+! Cookie Consent >3.0 is marketed under the name Insites.
+! Cookie Consnet <3.0 is marketed under Silktide and Sitebeam.
+! All of these are maintained by Silktide Ltd.
+! EU Cookie Consent appears to be operated independently, but it
+! uses the same code as Cookie Consent >3.0
+! Cookiescript.info is almost an exact duplicate of EU Cookie Consent.
+
+! Network filters for Cookie Consent by Silktide, all versions
+http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*
+https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*
+
+! Generic solution to Cookie Consent <3.0 by Silktide/Sitebeam/EU Cookie Consent/Cookie Sript Ltd.
+! [silktide.com/cookieconsent, sitebeam.net/cookieconsent-v1/code/, cookie-consent.org, cdn.cookiescript.info]
+##div.cc_banner-wrapper
+http://assets.cookieconsent.silktide.com/*
+http://cdn.front.to/libs/cookieconsent.min.*js
+http://cdn.cookiescript.info/libs/
+https://assets.cookieconsent.silktide.com/*
+https://cdn.front.to/libs/cookieconsent.min.*js
+https://cdn.cookiescript.info/libs/
+
+! Generic solution to Cookie Consent >3.0 by Insites/Silktide
+! [cookieconsent.insites.com]
+##div.cc-banner
+
+! Generic solution to Cookie Consent by privacypolicies.com
+! [privacypolicies.com/cookie-consent/]
+##div.cookieconsent-popup
+http://privacypolicies.com/cookie-consent/releases/*
+https://privacypolicies.com/cookie-consent/releases/*
+
+! Generic solution to Catapult Consent by Catapault Themes
+! [catapultthemes.com/cookie-consent/]
+##div#catapult-cookie-bar
+*/wp-content/plugins/uk-cookie-consent/*
+
+! Generic solution to Cookie Script by cookie-script.com
+! [cookie-script.com]
+##div#cookiescript_injected
+http://*.cookie-script.com/s/*
+https://*.cookie-script.com/s/*
