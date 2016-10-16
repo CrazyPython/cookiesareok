@@ -1,5 +1,5 @@
-! I Consent To Cookies, a filter to block "cookie consent" dialogs
-! Title: I Consent To Cookies
+! Cookies Are OK, a filter to block "cookie consent" dialogs
+! Title: Cookies Are OK
 ! Expires: 30 days
 ! Version: 1.0
 ! Homepage: https://github.com/CrazyPython/I-Consent-to-Cookies
